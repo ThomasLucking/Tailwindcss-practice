@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="bg-[#1b1d24]">
+    <!-- Top announcement bar -->
+    <div class="w-screen bg-[#20232a] py-3">
+        <h2 class="font-bold text-white text-center text-2xl">
+            Join us for React Conf on Oct 7-8,
+            <span class="text-[#58c4dc] underline cursor-pointer">Learn more</span>.
+        </h2>
+    </div>
+
+    <!-- Navigation header - Single row layout -->
+    <div class="w-screen bg-[#20232a] border-t border-[#30363d]">
+        <div class="flex items-center justify-between px-10 py-4">
+
+            <!-- Left side - class="w-full h-full -->
+            <div class="flex items-center">
+                <div class="w-8 h-8 mr-3 text-[#58c4dc]">
+                    <img class=" hover:rotate-180 transition-transform" src="React-icon.svg.png">
+                </div>
+                <h1 class="text-2xl font-semibold text-white hover:text-[#58c4dc] cursor-pointer">React Native</h1>
+            </div>
+
+            <!-- Center navigation -->
+            <nav class="flex items-center space-x-8 text-2xl">
+                <div class="relative group">
+                    <button class="text-white font-semibold hover:text-[#58c4dc] flex items-center transition-colors">
+                        Development
+                        <i class="fas fa-chevron-down ml-1 text-xs"></i>
+                    </button>
+                </div>
+                <a href="#"
+                    class="text-white font-semibold hover:text-[#58c4dc] hover:underline transition-colors">Contributing</a>
+                <a href="#"
+                    class="text-white font-semibold hover:text-[#58c4dc] hover:underline transition-colors">Community</a>
+                <a href="#"
+                    class="text-white font-semibold hover:text-[#58c4dc] hover:underline transition-colors">Showcase</a>
+                <a href="#"
+                    class="text-white font-semibold hover:text-[#58c4dc] hover:underline transition-colors">Blog</a>
+            </nav>
+
+            <!-- Right side - GitHub, theme toggle, search -->
+            <div class="flex items-center space-x-4">
+                <a href="#" class="text-white hover:text-[#58c4dc] transition-colors">
+                    <i class="fab fa-github text-xl"></i>
+                </a>
+                <button class="text-white hover:text-[#58c4dc] transition-colors">
+                    <i class="fas fa-adjust text-lg"></i>
+                </button>
+                <div class="flex items-center bg-[#30363d] rounded-md px-3 py-2">
+                    <i class="fas fa-search text-gray-400 mr-2 text-sm"></i>
+                    <span class="text-gray-400 text-sm mr-8">Search</span>
+                    <div class="flex space-x-1">
+                        <kbd class="bg-[#21262d] text-gray-400 px-1.5 py-0.5 rounded text-xs">⌘</kbd>
+                        <kbd class="bg-[#21262d] text-gray-400 px-1.5 py-0.5 rounded text-xs">K</kbd>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main content area -->
+    <div class="flex justify-center items-center mt-32">
+        <img class="w-32 hover:rotate-180 transition-transform duration-500" src="React-icon.svg.png" alt="React Logo">
+    </div>
+
+    <h2 class="text-center mt-8 font-bold text-white text-6xl">
+        React Native
+    </h2>
+
+    <h3 class="text-center mt-4 text-[#c0c1c4] text-3xl font-normal">
+        Learn once, write anywhere.
+    </h3>
+
+    <div class="flex justify-center items-center mt-8 space-x-4">
+        <button class="px-8 py-3 bg-[#58c4dc] text-white font-bold rounded-full hover:bg-[#71d6ec] transition-colors">
+            Get Started
+        </button>
+        <button
+            class="px-8 py-3 border-2 border-[#4e5668] bg-transparent text-white font-bold rounded-full hover:bg-[#2b2b2d] transition-colors">
+            Learn the Basics
+        </button>
+    </div>
+    <div class="text-center mt-24 max-w-4xl mx-auto px-8">
+        <h1 class="text-white text-6xl font-semibold leading-tight">
+            Create native apps for
+            <span class="text-green-400">Android</span>,
+            <span class="text-[#58c4dc]">iOS</span>, and more using
+            <span class="text-[#58c4dc]">React</span>
+        </h1>
+        <h2 class="text-gray-400 text-xl mt-8 leading-relaxed">
+            <span class="text-[#58c4dc]">React Native</span> brings the best parts of developing with
+            <span class="text-[#58c4dc]">React</span> to native development. It's a best-in-class
+            <span class="text-amber-200">JavaScript</span> library for building user interfaces.
+        </h2>
+    </div>
+    <div class="w-[400px] h-[50px] bg-[#404756] ml-20 mt-52 rounded-t-lg">
+    </div>
+</body>
+
+</html>
